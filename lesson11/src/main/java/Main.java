@@ -17,7 +17,7 @@ public class Main {
         UserService userService = UserServiceImpl.getUserService();
         ProductService productService = ProductServiceImpl.getProductService();
         BucketService bucketService = BucketServiceImpl.getBucketService();
-
+//just a comment
             userService.create(new User("test@test", "john", "dou", "human", "qwerty"));
             productService.create(new Product("iphone x", "ftgthfgthfhfgh nfh fh fg ", 1000.0));
             bucketService.create(new Bucket(1,1, new Date(Calendar.getInstance().getTime().getTime())));
