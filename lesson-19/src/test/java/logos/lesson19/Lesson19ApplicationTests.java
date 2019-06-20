@@ -1,4 +1,4 @@
-package logos.lesson18;
+package logos.lesson19;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class Lesson18ApplicationTests {
+public class Lesson19ApplicationTests {
 
 	@Test
 	public void contextLoads() {
